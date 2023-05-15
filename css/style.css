@@ -195,7 +195,7 @@ header{
     width: 100%;
 }
  /*------------ Carousel -----------*/
-.carousel-caption {
+/* .carousel-item  {
     top: 0;
     left: 0;
     right: 0;
@@ -203,8 +203,11 @@ header{
     background: rgba(9, 30, 62, .7);
     z-index: 1;
     margin: 0 0 75px 0;
-    /* background-image: url(../image/banner1.jpg); */
+    background-image: url(../image/banner1.jpg); 
     
+}  */
+#header-carousel{
+    padding-bottom: 1px !important;
 }
 @media (max-width: 576px) {
     .carousel-caption h5 {
