@@ -1,0 +1,23 @@
+@media(max-width: 992px){
+    .header .about{
+        /* width: 33.33% !important; */
+        display: none !important;
+    }
+    .header .social{
+        width: 100% !important;
+    }
+}
+@media(max-width: 576px){
+    .carousel-caption{
+        padding-top: 150px !important;
+    } 
+    .Team{
+        padding-top: 0px !important;
+    }
+}
+@media(max-width: 350){
+    .pricing-box {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
